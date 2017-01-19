@@ -1,4 +1,3 @@
-index.wsgi
 
 import sae
 from blog_project import wsgi
