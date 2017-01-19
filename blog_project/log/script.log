@@ -1,0 +1,1231 @@
+2016-09-28 17:30:26,555 [Thread-2:6280] [django.request:182] [base:get_response] [WARNING]- Not Found: /
+2016-09-28 17:30:26,687 [Thread-3:7012] [django.request:182] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2016-09-28 17:30:26,746 [Thread-4:5688] [django.request:182] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2016-09-29 08:37:14,375 [Thread-2:4560] [django.request:182] [base:get_response] [WARNING]- Not Found: /
+2016-09-29 08:37:14,578 [Thread-3:4372] [django.request:182] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2016-09-29 08:37:14,592 [Thread-4:4068] [django.request:182] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2016-09-29 08:38:13,259 [Thread-2:4436] [django.request:182] [base:get_response] [WARNING]- Not Found: /
+2016-09-29 08:38:14,757 [Thread-3:4640] [django.request:182] [base:get_response] [WARNING]- Not Found: /
+2016-09-29 09:14:42,469 [Thread-14:5592] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/blog/article/add/
+Traceback (most recent call last):
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\contrib\admin\options.py", line 541, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\utils\decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\views\decorators\cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\contrib\admin\sites.py", line 244, in inner
+    return view(request, *args, **kwargs)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\contrib\admin\options.py", line 1437, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\utils\decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\utils\decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\utils\decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\utils\decorators.py", line 184, in inner
+    return func(*args, **kwargs)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\contrib\admin\options.py", line 1367, in changeform_view
+    ModelForm = self.get_form(request, obj)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\contrib\admin\options.py", line 642, in get_form
+    % (e, self.__class__.__name__))
+FieldError: Unknown field(s) (date_publish) specified for Article. Check fields/fieldsets/exclude attributes of class ArticleAdmin.
+2016-09-29 09:15:33,299 [Thread-16:5796] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/blog/article/add/
+Traceback (most recent call last):
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\contrib\admin\options.py", line 541, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\utils\decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\views\decorators\cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\contrib\admin\sites.py", line 244, in inner
+    return view(request, *args, **kwargs)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\contrib\admin\options.py", line 1437, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\utils\decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\utils\decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\utils\decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\utils\decorators.py", line 184, in inner
+    return func(*args, **kwargs)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\contrib\admin\options.py", line 1367, in changeform_view
+    ModelForm = self.get_form(request, obj)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\contrib\admin\options.py", line 642, in get_form
+    % (e, self.__class__.__name__))
+FieldError: Unknown field(s) (date_publish) specified for Article. Check fields/fieldsets/exclude attributes of class ArticleAdmin.
+2016-09-29 09:17:24,009 [Thread-25:5624] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/blog/article/add/
+Traceback (most recent call last):
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\contrib\admin\options.py", line 541, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\utils\decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\views\decorators\cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\contrib\admin\sites.py", line 244, in inner
+    return view(request, *args, **kwargs)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\contrib\admin\options.py", line 1437, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\utils\decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\utils\decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\utils\decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\utils\decorators.py", line 184, in inner
+    return func(*args, **kwargs)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\contrib\admin\options.py", line 1378, in changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\contrib\admin\options.py", line 991, in save_model
+    obj.save()
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\db\models\base.py", line 708, in save
+    force_update=force_update, update_fields=update_fields)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\db\models\base.py", line 736, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\db\models\base.py", line 820, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\db\models\base.py", line 859, in _do_insert
+    using=using, raw=raw)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\db\models\manager.py", line 122, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\db\models\query.py", line 1039, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\db\models\sql\compiler.py", line 1060, in execute_sql
+    cursor.execute(sql, params)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\db\backends\utils.py", line 79, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\db\backends\utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\db\backends\mysql\base.py", line 117, in execute
+    six.reraise(utils.IntegrityError, utils.IntegrityError(*tuple(e.args)), sys.exc_info()[2])
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\db\backends\mysql\base.py", line 112, in execute
+    return self.cursor.execute(query, args)
+  File "E:\python\lib\site-packages\MySQLdb\cursors.py", line 174, in execute
+    self.errorhandler(self, exc, value)
+  File "E:\python\lib\site-packages\MySQLdb\connections.py", line 36, in defaulterrorhandler
+    raise errorclass, errorvalue
+IntegrityError: (1048, "Column 'user_id' cannot be null")
+2016-09-29 09:17:44,078 [Thread-28:4764] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/blog/article/add/
+Traceback (most recent call last):
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\contrib\admin\options.py", line 541, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\utils\decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\views\decorators\cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\contrib\admin\sites.py", line 244, in inner
+    return view(request, *args, **kwargs)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\contrib\admin\options.py", line 1437, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\utils\decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\utils\decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\utils\decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\utils\decorators.py", line 184, in inner
+    return func(*args, **kwargs)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\contrib\admin\options.py", line 1378, in changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\contrib\admin\options.py", line 991, in save_model
+    obj.save()
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\db\models\base.py", line 708, in save
+    force_update=force_update, update_fields=update_fields)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\db\models\base.py", line 736, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\db\models\base.py", line 820, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\db\models\base.py", line 859, in _do_insert
+    using=using, raw=raw)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\db\models\manager.py", line 122, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\db\models\query.py", line 1039, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\db\models\sql\compiler.py", line 1060, in execute_sql
+    cursor.execute(sql, params)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\db\backends\utils.py", line 79, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\db\backends\utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\db\backends\mysql\base.py", line 117, in execute
+    six.reraise(utils.IntegrityError, utils.IntegrityError(*tuple(e.args)), sys.exc_info()[2])
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\db\backends\mysql\base.py", line 112, in execute
+    return self.cursor.execute(query, args)
+  File "E:\python\lib\site-packages\MySQLdb\cursors.py", line 174, in execute
+    self.errorhandler(self, exc, value)
+  File "E:\python\lib\site-packages\MySQLdb\connections.py", line 36, in defaulterrorhandler
+    raise errorclass, errorvalue
+IntegrityError: (1048, "Column 'user_id' cannot be null")
+2016-09-29 09:21:12,332 [Thread-32:5428] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/blog/article/add/
+Traceback (most recent call last):
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\contrib\admin\options.py", line 541, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\utils\decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\views\decorators\cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\contrib\admin\sites.py", line 244, in inner
+    return view(request, *args, **kwargs)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\contrib\admin\options.py", line 1437, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\utils\decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\utils\decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\utils\decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\utils\decorators.py", line 184, in inner
+    return func(*args, **kwargs)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\contrib\admin\options.py", line 1378, in changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\contrib\admin\options.py", line 991, in save_model
+    obj.save()
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\db\models\base.py", line 708, in save
+    force_update=force_update, update_fields=update_fields)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\db\models\base.py", line 736, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\db\models\base.py", line 820, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\db\models\base.py", line 859, in _do_insert
+    using=using, raw=raw)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\db\models\manager.py", line 122, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\db\models\query.py", line 1039, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\db\models\sql\compiler.py", line 1060, in execute_sql
+    cursor.execute(sql, params)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\db\backends\utils.py", line 79, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\db\backends\utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\db\backends\mysql\base.py", line 117, in execute
+    six.reraise(utils.IntegrityError, utils.IntegrityError(*tuple(e.args)), sys.exc_info()[2])
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\db\backends\mysql\base.py", line 112, in execute
+    return self.cursor.execute(query, args)
+  File "E:\python\lib\site-packages\MySQLdb\cursors.py", line 174, in execute
+    self.errorhandler(self, exc, value)
+  File "E:\python\lib\site-packages\MySQLdb\connections.py", line 36, in defaulterrorhandler
+    raise errorclass, errorvalue
+IntegrityError: (1048, "Column 'user_id' cannot be null")
+2016-09-29 09:24:14,223 [Thread-18:3252] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/blog/article/add/
+Traceback (most recent call last):
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\contrib\admin\options.py", line 541, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\utils\decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\views\decorators\cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\contrib\admin\sites.py", line 244, in inner
+    return view(request, *args, **kwargs)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\contrib\admin\options.py", line 1437, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\utils\decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\utils\decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\utils\decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\utils\decorators.py", line 184, in inner
+    return func(*args, **kwargs)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\contrib\admin\options.py", line 1367, in changeform_view
+    ModelForm = self.get_form(request, obj)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\contrib\admin\options.py", line 642, in get_form
+    % (e, self.__class__.__name__))
+FieldError: Unknown field(s) (date_publish) specified for Article. Check fields/fieldsets/exclude attributes of class ArticleAdmin.
+2016-09-29 09:25:37,453 [Thread-19:2120] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/blog/article/add/
+Traceback (most recent call last):
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\core\handlers\base.py", line 174, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\core\handlers\base.py", line 172, in get_response
+    response = response.render()
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\response.py", line 160, in render
+    self.content = self.rendered_content
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\response.py", line 137, in rendered_content
+    content = template.render(context, self._request)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\backends\django.py", line 95, in render
+    return self.template.render(context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\base.py", line 206, in render
+    return self._render(context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\base.py", line 959, in render_annotated
+    return self.render(context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\loader_tags.py", line 173, in render
+    return compiled_parent._render(context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\base.py", line 959, in render_annotated
+    return self.render(context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\loader_tags.py", line 173, in render
+    return compiled_parent._render(context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\base.py", line 959, in render_annotated
+    return self.render(context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\loader_tags.py", line 69, in render
+    result = block.nodelist.render(context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\base.py", line 959, in render_annotated
+    return self.render(context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\loader_tags.py", line 69, in render
+    result = block.nodelist.render(context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\base.py", line 959, in render_annotated
+    return self.render(context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\defaulttags.py", line 220, in render
+    nodelist.append(node.render_annotated(context))
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\base.py", line 959, in render_annotated
+    return self.render(context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\loader_tags.py", line 209, in render
+    return template.render(context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\base.py", line 208, in render
+    return self._render(context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\base.py", line 959, in render_annotated
+    return self.render(context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\defaulttags.py", line 220, in render
+    nodelist.append(node.render_annotated(context))
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\base.py", line 959, in render_annotated
+    return self.render(context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\defaulttags.py", line 167, in render
+    values = list(values)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\contrib\admin\helpers.py", line 112, in __iter__
+    yield AdminField(self.form, field, is_first=(i == 0))
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\contrib\admin\helpers.py", line 123, in __init__
+    self.field = form[field]  # A django.forms.BoundField instance
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\forms\forms.py", line 144, in __getitem__
+    "Key %r not found in '%s'" % (name, self.__class__.__name__))
+KeyError: u"Key 'id' not found in 'ArticleForm'"
+2016-09-29 09:28:03,720 [Thread-20:5744] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/blog/article/add/
+Traceback (most recent call last):
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\contrib\admin\options.py", line 541, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\utils\decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\views\decorators\cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\contrib\admin\sites.py", line 244, in inner
+    return view(request, *args, **kwargs)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\contrib\admin\options.py", line 1437, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\utils\decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\utils\decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\utils\decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\utils\decorators.py", line 184, in inner
+    return func(*args, **kwargs)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\contrib\admin\options.py", line 1367, in changeform_view
+    ModelForm = self.get_form(request, obj)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\contrib\admin\options.py", line 642, in get_form
+    % (e, self.__class__.__name__))
+FieldError: Unknown field(s) (date_publishcategory) specified for Article. Check fields/fieldsets/exclude attributes of class ArticleAdmin.
+2016-09-29 09:32:48,575 [Thread-18:5288] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/blog/article/add/
+Traceback (most recent call last):
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\contrib\admin\options.py", line 541, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\utils\decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\views\decorators\cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\contrib\admin\sites.py", line 244, in inner
+    return view(request, *args, **kwargs)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\contrib\admin\options.py", line 1437, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\utils\decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\utils\decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\utils\decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\utils\decorators.py", line 184, in inner
+    return func(*args, **kwargs)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\contrib\admin\options.py", line 1367, in changeform_view
+    ModelForm = self.get_form(request, obj)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\contrib\admin\options.py", line 642, in get_form
+    % (e, self.__class__.__name__))
+FieldError: Unknown field(s) (date_publishcategory) specified for Article. Check fields/fieldsets/exclude attributes of class ArticleAdmin.
+2016-09-29 09:35:10,894 [Thread-18:5588] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/blog/article/add/
+Traceback (most recent call last):
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\contrib\admin\options.py", line 541, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\utils\decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\views\decorators\cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\contrib\admin\sites.py", line 244, in inner
+    return view(request, *args, **kwargs)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\contrib\admin\options.py", line 1437, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\utils\decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\utils\decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\utils\decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\utils\decorators.py", line 184, in inner
+    return func(*args, **kwargs)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\contrib\admin\options.py", line 1367, in changeform_view
+    ModelForm = self.get_form(request, obj)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\contrib\admin\options.py", line 642, in get_form
+    % (e, self.__class__.__name__))
+FieldError: Unknown field(s) (date_publish) specified for Article. Check fields/fieldsets/exclude attributes of class ArticleAdmin.
+2016-09-29 09:37:08,948 [Thread-6:5784] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/blog/article/add/
+Traceback (most recent call last):
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\contrib\admin\options.py", line 541, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\utils\decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\views\decorators\cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\contrib\admin\sites.py", line 244, in inner
+    return view(request, *args, **kwargs)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\contrib\admin\options.py", line 1437, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\utils\decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\utils\decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\utils\decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\utils\decorators.py", line 184, in inner
+    return func(*args, **kwargs)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\contrib\admin\options.py", line 1367, in changeform_view
+    ModelForm = self.get_form(request, obj)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\contrib\admin\options.py", line 642, in get_form
+    % (e, self.__class__.__name__))
+FieldError: Unknown field(s) (date_publish) specified for Article. Check fields/fieldsets/exclude attributes of class ArticleAdmin.
+2016-09-29 10:45:41,750 [Thread-2:5772] [django.request:182] [base:get_response] [WARNING]- Not Found: /
+2016-09-29 10:51:25,660 [Thread-2:2540] [django.request:182] [base:get_response] [WARNING]- Not Found: /
+2016-09-29 10:51:31,099 [Thread-3:4820] [django.request:182] [base:get_response] [WARNING]- Not Found: /
+2016-09-29 11:18:55,562 [Thread-2:5060] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Djangoproject\blog_project\blog\views.py", line 13, in index
+    return render(request, 'index.html', locals())
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\loader.py", line 97, in render_to_string
+    return template.render(context, request)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\backends\django.py", line 95, in render
+    return self.template.render(context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\base.py", line 206, in render
+    return self._render(context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\base.py", line 959, in render_annotated
+    return self.render(context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\loader_tags.py", line 173, in render
+    return compiled_parent._render(context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\base.py", line 959, in render_annotated
+    return self.render(context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\defaulttags.py", line 220, in render
+    nodelist.append(node.render_annotated(context))
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\base.py", line 959, in render_annotated
+    return self.render(context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\defaulttags.py", line 513, in render
+    six.reraise(*exc_info)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\defaulttags.py", line 499, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\core\urlresolvers.py", line 600, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\core\urlresolvers.py", line 508, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns))
+NoReverseMatch: Reverse for 'category' with arguments '()' and keyword arguments '{}' not found. 0 pattern(s) tried: []
+2016-09-29 11:24:22,335 [Thread-2:5884] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Djangoproject\blog_project\blog\views.py", line 13, in index
+    return render(request, 'index.html', {'category_list': category_list})
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\loader.py", line 97, in render_to_string
+    return template.render(context, request)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\backends\django.py", line 95, in render
+    return self.template.render(context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\base.py", line 206, in render
+    return self._render(context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\base.py", line 959, in render_annotated
+    return self.render(context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\loader_tags.py", line 173, in render
+    return compiled_parent._render(context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\base.py", line 959, in render_annotated
+    return self.render(context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\defaulttags.py", line 220, in render
+    nodelist.append(node.render_annotated(context))
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\base.py", line 959, in render_annotated
+    return self.render(context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\defaulttags.py", line 513, in render
+    six.reraise(*exc_info)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\defaulttags.py", line 499, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\core\urlresolvers.py", line 600, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\core\urlresolvers.py", line 508, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns))
+NoReverseMatch: Reverse for 'category' with arguments '()' and keyword arguments '{}' not found. 0 pattern(s) tried: []
+2016-09-29 11:24:29,609 [Thread-3:5088] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Djangoproject\blog_project\blog\views.py", line 13, in index
+    return render(request, 'index.html', {'category_list': category_list})
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\loader.py", line 97, in render_to_string
+    return template.render(context, request)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\backends\django.py", line 95, in render
+    return self.template.render(context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\base.py", line 206, in render
+    return self._render(context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\base.py", line 959, in render_annotated
+    return self.render(context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\loader_tags.py", line 173, in render
+    return compiled_parent._render(context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\base.py", line 959, in render_annotated
+    return self.render(context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\defaulttags.py", line 220, in render
+    nodelist.append(node.render_annotated(context))
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\base.py", line 959, in render_annotated
+    return self.render(context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\defaulttags.py", line 513, in render
+    six.reraise(*exc_info)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\defaulttags.py", line 499, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\core\urlresolvers.py", line 600, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\core\urlresolvers.py", line 508, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns))
+NoReverseMatch: Reverse for 'category' with arguments '()' and keyword arguments '{}' not found. 0 pattern(s) tried: []
+2016-09-29 11:24:39,394 [Thread-2:5500] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Djangoproject\blog_project\blog\views.py", line 13, in index
+    return render(request, 'index.html', {'category_list': category_list})
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\loader.py", line 97, in render_to_string
+    return template.render(context, request)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\backends\django.py", line 95, in render
+    return self.template.render(context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\base.py", line 206, in render
+    return self._render(context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\base.py", line 959, in render_annotated
+    return self.render(context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\loader_tags.py", line 173, in render
+    return compiled_parent._render(context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\base.py", line 959, in render_annotated
+    return self.render(context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\defaulttags.py", line 220, in render
+    nodelist.append(node.render_annotated(context))
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\base.py", line 959, in render_annotated
+    return self.render(context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\defaulttags.py", line 513, in render
+    six.reraise(*exc_info)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\defaulttags.py", line 499, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\core\urlresolvers.py", line 600, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\core\urlresolvers.py", line 508, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns))
+NoReverseMatch: Reverse for 'category' with arguments '()' and keyword arguments '{}' not found. 0 pattern(s) tried: []
+2016-09-29 11:25:12,009 [Thread-2:4700] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Djangoproject\blog_project\blog\views.py", line 13, in index
+    return render(request, 'index.html', {'category_list': category_list})
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\loader.py", line 97, in render_to_string
+    return template.render(context, request)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\backends\django.py", line 95, in render
+    return self.template.render(context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\base.py", line 206, in render
+    return self._render(context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\base.py", line 959, in render_annotated
+    return self.render(context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\loader_tags.py", line 173, in render
+    return compiled_parent._render(context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\base.py", line 959, in render_annotated
+    return self.render(context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\defaulttags.py", line 220, in render
+    nodelist.append(node.render_annotated(context))
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\base.py", line 959, in render_annotated
+    return self.render(context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\defaulttags.py", line 513, in render
+    six.reraise(*exc_info)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\defaulttags.py", line 499, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\core\urlresolvers.py", line 600, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\core\urlresolvers.py", line 508, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns))
+NoReverseMatch: Reverse for 'category' with arguments '()' and keyword arguments '{}' not found. 0 pattern(s) tried: []
+2016-09-29 11:26:36,701 [Thread-2:4020] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Djangoproject\blog_project\blog\views.py", line 13, in index
+    return render(request, 'base.html', {'category_list': category_list})
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\loader.py", line 97, in render_to_string
+    return template.render(context, request)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\backends\django.py", line 95, in render
+    return self.template.render(context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\base.py", line 206, in render
+    return self._render(context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\base.py", line 959, in render_annotated
+    return self.render(context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\defaulttags.py", line 220, in render
+    nodelist.append(node.render_annotated(context))
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\base.py", line 959, in render_annotated
+    return self.render(context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\defaulttags.py", line 513, in render
+    six.reraise(*exc_info)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\defaulttags.py", line 499, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\core\urlresolvers.py", line 600, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\core\urlresolvers.py", line 508, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns))
+NoReverseMatch: Reverse for 'category' with arguments '()' and keyword arguments '{}' not found. 0 pattern(s) tried: []
+2016-09-29 11:26:53,236 [Thread-3:2468] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Djangoproject\blog_project\blog\views.py", line 13, in index
+    return render(request, 'base.html', {'category_list': category_list})
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\loader.py", line 97, in render_to_string
+    return template.render(context, request)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\backends\django.py", line 95, in render
+    return self.template.render(context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\base.py", line 206, in render
+    return self._render(context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\base.py", line 959, in render_annotated
+    return self.render(context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\defaulttags.py", line 220, in render
+    nodelist.append(node.render_annotated(context))
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\base.py", line 959, in render_annotated
+    return self.render(context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\defaulttags.py", line 513, in render
+    six.reraise(*exc_info)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\defaulttags.py", line 499, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\core\urlresolvers.py", line 600, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\core\urlresolvers.py", line 508, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns))
+NoReverseMatch: Reverse for 'category' with arguments '()' and keyword arguments '{}' not found. 0 pattern(s) tried: []
+2016-09-29 11:27:01,720 [Thread-4:5064] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Djangoproject\blog_project\blog\views.py", line 13, in index
+    return render(request, 'base.html', {'category_list': category_list})
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\loader.py", line 97, in render_to_string
+    return template.render(context, request)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\backends\django.py", line 95, in render
+    return self.template.render(context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\base.py", line 206, in render
+    return self._render(context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\base.py", line 959, in render_annotated
+    return self.render(context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\defaulttags.py", line 220, in render
+    nodelist.append(node.render_annotated(context))
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\base.py", line 959, in render_annotated
+    return self.render(context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\defaulttags.py", line 513, in render
+    six.reraise(*exc_info)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\defaulttags.py", line 499, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\core\urlresolvers.py", line 600, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\core\urlresolvers.py", line 508, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns))
+NoReverseMatch: Reverse for 'category' with arguments '()' and keyword arguments '{}' not found. 0 pattern(s) tried: []
+2016-09-29 11:32:21,650 [Thread-17:1184] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Djangoproject\blog_project\blog\views.py", line 13, in index
+    return render(request, 'base.html', locals())
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\loader.py", line 97, in render_to_string
+    return template.render(context, request)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\backends\django.py", line 95, in render
+    return self.template.render(context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\base.py", line 206, in render
+    return self._render(context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\base.py", line 959, in render_annotated
+    return self.render(context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\defaulttags.py", line 220, in render
+    nodelist.append(node.render_annotated(context))
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\base.py", line 959, in render_annotated
+    return self.render(context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\defaulttags.py", line 513, in render
+    six.reraise(*exc_info)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\defaulttags.py", line 499, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\core\urlresolvers.py", line 600, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\core\urlresolvers.py", line 508, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns))
+NoReverseMatch: Reverse for 'category' with arguments '()' and keyword arguments '{}' not found. 0 pattern(s) tried: []
+2016-09-29 11:32:26,805 [Thread-18:4804] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Djangoproject\blog_project\blog\views.py", line 13, in index
+    return render(request, 'base.html', locals())
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\loader.py", line 97, in render_to_string
+    return template.render(context, request)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\backends\django.py", line 95, in render
+    return self.template.render(context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\base.py", line 206, in render
+    return self._render(context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\base.py", line 959, in render_annotated
+    return self.render(context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\defaulttags.py", line 220, in render
+    nodelist.append(node.render_annotated(context))
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\base.py", line 959, in render_annotated
+    return self.render(context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\defaulttags.py", line 513, in render
+    six.reraise(*exc_info)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\defaulttags.py", line 499, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\core\urlresolvers.py", line 600, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\core\urlresolvers.py", line 508, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns))
+NoReverseMatch: Reverse for 'category' with arguments '()' and keyword arguments '{}' not found. 0 pattern(s) tried: []
+2016-09-29 14:30:35,910 [Thread-2:5536] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Djangoproject\blog_project\blog\views.py", line 21, in index
+    page = int(request.GET().get('page', 1))
+TypeError: 'QueryDict' object is not callable
+2016-09-29 17:40:02,186 [Thread-2:2468] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Djangoproject\blog_project\blog\views.py", line 31, in index
+    return render(request, 'index.html', locals())
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\loader.py", line 97, in render_to_string
+    return template.render(context, request)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\backends\django.py", line 95, in render
+    return self.template.render(context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\base.py", line 204, in render
+    with context.bind_template(self):
+  File "E:\python\lib\contextlib.py", line 17, in __enter__
+    return self.gen.next()
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\context.py", line 260, in bind_template
+    updates.update(processor(self.request))
+  File "E:\Djangoproject\blog_project\blog\views.py", line 17, in global_setting
+    archive_list = Article.objects.distinct_date()
+  File "E:\Djangoproject\blog_project\blog\models.py", line 53, in distinct_date
+    date = date['date_publish'].strftime('%Y/%m鏂囩珷瀛樻。')
+UnicodeEncodeError: 'ascii' codec can't encode characters in position 5-8: ordinal not in range(128)
+2016-09-29 17:42:22,500 [Thread-2:3192] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Djangoproject\blog_project\blog\views.py", line 31, in index
+    return render(request, 'index.html', locals())
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\loader.py", line 97, in render_to_string
+    return template.render(context, request)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\backends\django.py", line 95, in render
+    return self.template.render(context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\base.py", line 204, in render
+    with context.bind_template(self):
+  File "E:\python\lib\contextlib.py", line 17, in __enter__
+    return self.gen.next()
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\context.py", line 260, in bind_template
+    updates.update(processor(self.request))
+  File "E:\Djangoproject\blog_project\blog\views.py", line 17, in global_setting
+    archive_list = Article.objects.distinct_date()
+  File "E:\Djangoproject\blog_project\blog\models.py", line 53, in distinct_date
+    date = date['date_publish'].strftime(u'%Y/%m鏂囩珷瀛樻。')
+UnicodeEncodeError: 'ascii' codec can't encode characters in position 5-8: ordinal not in range(128)
+2016-09-30 08:35:44,790 [Thread-3:3296] [django.request:182] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2016-09-30 08:35:44,806 [Thread-4:4332] [django.request:182] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2016-09-30 11:20:14,334 [Thread-3:4144] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /article/
+Traceback (most recent call last):
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Djangoproject\blog_project\blog\views.py", line 61, in article
+    return render(request, 'article.html', {'article': one_article})
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\loader.py", line 96, in render_to_string
+    template = get_template(template_name, using=using)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\loader.py", line 32, in get_template
+    return engine.get_template(template_name, dirs)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\backends\django.py", line 40, in get_template
+    return Template(self.engine.get_template(template_name, dirs), self)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\engine.py", line 190, in get_template
+    template, origin = self.find_template(template_name, dirs)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\engine.py", line 157, in find_template
+    name, template_dirs=dirs, skip=skip,
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\loaders\base.py", line 46, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\base.py", line 189, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\base.py", line 231, in compile_nodelist
+    return parser.parse()
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\base.py", line 516, in parse
+    raise self.error(token, e)
+TemplateSyntaxError: 'myfilter' is not a registered tag library. Must be one of:
+admin_list
+admin_modify
+admin_static
+admin_urls
+cache
+future
+i18n
+l10n
+log
+static
+staticfiles
+tz
+2016-09-30 11:20:49,167 [Thread-5:6008] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /article/
+Traceback (most recent call last):
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Djangoproject\blog_project\blog\views.py", line 61, in article
+    return render(request, 'article.html', {'article': one_article})
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\loader.py", line 96, in render_to_string
+    template = get_template(template_name, using=using)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\loader.py", line 32, in get_template
+    return engine.get_template(template_name, dirs)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\backends\django.py", line 40, in get_template
+    return Template(self.engine.get_template(template_name, dirs), self)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\engine.py", line 190, in get_template
+    template, origin = self.find_template(template_name, dirs)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\engine.py", line 157, in find_template
+    name, template_dirs=dirs, skip=skip,
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\loaders\base.py", line 46, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\base.py", line 189, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\base.py", line 231, in compile_nodelist
+    return parser.parse()
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\base.py", line 516, in parse
+    raise self.error(token, e)
+TemplateSyntaxError: Invalid filter: 'month_to_upper'
+2016-09-30 11:21:19,700 [Thread-6:2800] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /article/
+Traceback (most recent call last):
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Djangoproject\blog_project\blog\views.py", line 61, in article
+    return render(request, 'article.html', {'article': one_article})
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\loader.py", line 96, in render_to_string
+    template = get_template(template_name, using=using)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\loader.py", line 32, in get_template
+    return engine.get_template(template_name, dirs)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\backends\django.py", line 40, in get_template
+    return Template(self.engine.get_template(template_name, dirs), self)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\engine.py", line 190, in get_template
+    template, origin = self.find_template(template_name, dirs)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\engine.py", line 157, in find_template
+    name, template_dirs=dirs, skip=skip,
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\loaders\base.py", line 46, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\base.py", line 189, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\base.py", line 231, in compile_nodelist
+    return parser.parse()
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\base.py", line 516, in parse
+    raise self.error(token, e)
+TemplateSyntaxError: Invalid block tag on line 84: 'endblock'. Did you forget to register or load this tag?
+2016-09-30 11:38:07,125 [Thread-3:4160] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /article/
+Traceback (most recent call last):
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Djangoproject\blog_project\blog\views.py", line 61, in article
+    return render(request, 'article.html', {'article': one_article})
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\loader.py", line 97, in render_to_string
+    return template.render(context, request)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\backends\django.py", line 95, in render
+    return self.template.render(context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\base.py", line 206, in render
+    return self._render(context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\base.py", line 959, in render_annotated
+    return self.render(context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\loader_tags.py", line 173, in render
+    return compiled_parent._render(context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\base.py", line 959, in render_annotated
+    return self.render(context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\loader_tags.py", line 69, in render
+    result = block.nodelist.render(context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\base.py", line 959, in render_annotated
+    return self.render(context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\defaulttags.py", line 326, in render
+    return nodelist.render(context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\base.py", line 959, in render_annotated
+    return self.render(context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\defaulttags.py", line 513, in render
+    six.reraise(*exc_info)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\defaulttags.py", line 499, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\core\urlresolvers.py", line 600, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\core\urlresolvers.py", line 508, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns))
+NoReverseMatch: Reverse for 'logout' with arguments '()' and keyword arguments '{}' not found. 0 pattern(s) tried: []
+2016-09-30 13:15:31,503 [Thread-3:4012] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /article/
+Traceback (most recent call last):
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Djangoproject\blog_project\blog\views.py", line 61, in article
+    return render(request, 'article.html', {'article': one_article})
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\loader.py", line 97, in render_to_string
+    return template.render(context, request)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\backends\django.py", line 95, in render
+    return self.template.render(context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\base.py", line 206, in render
+    return self._render(context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\base.py", line 959, in render_annotated
+    return self.render(context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\loader_tags.py", line 173, in render
+    return compiled_parent._render(context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\base.py", line 959, in render_annotated
+    return self.render(context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\loader_tags.py", line 69, in render
+    result = block.nodelist.render(context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\base.py", line 959, in render_annotated
+    return self.render(context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\defaulttags.py", line 326, in render
+    return nodelist.render(context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\base.py", line 959, in render_annotated
+    return self.render(context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\defaulttags.py", line 513, in render
+    six.reraise(*exc_info)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\defaulttags.py", line 499, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\core\urlresolvers.py", line 600, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\core\urlresolvers.py", line 508, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns))
+NoReverseMatch: Reverse for 'logout' with arguments '()' and keyword arguments '{}' not found. 0 pattern(s) tried: []
+2016-09-30 14:13:55,395 [Thread-109:3848] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/None
+2016-10-08 09:15:54,098 [Thread-25:2528] [django.request:182] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2016-10-08 09:15:54,145 [Thread-26:4720] [django.request:182] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2016-10-08 10:33:23,394 [Thread-2:448] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Djangoproject\blog_project\blog\views.py", line 48, in index
+    return render(request, 'index.html', locals())
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\loader.py", line 97, in render_to_string
+    return template.render(context, request)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\backends\django.py", line 95, in render
+    return self.template.render(context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\base.py", line 204, in render
+    with context.bind_template(self):
+  File "E:\python\lib\contextlib.py", line 17, in __enter__
+    return self.gen.next()
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\context.py", line 260, in bind_template
+    updates.update(processor(self.request))
+  File "E:\Djangoproject\blog_project\blog\views.py", line 19, in global_setting
+    SITE_URL = settings.SITE_URL
+NameError: global name 'settings' is not defined
+2016-10-09 09:18:19,799 [Thread-3:4708] [django.request:182] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2016-10-09 09:18:19,842 [Thread-4:1792] [django.request:182] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2016-10-09 16:10:13,470 [Thread-2:4292] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Djangoproject\blog_project\blog\views.py", line 62, in index
+    return render(request, 'index.html', locals())
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\loader.py", line 97, in render_to_string
+    return template.render(context, request)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\backends\django.py", line 95, in render
+    return self.template.render(context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\base.py", line 204, in render
+    with context.bind_template(self):
+  File "E:\python\lib\contextlib.py", line 17, in __enter__
+    return self.gen.next()
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\context.py", line 260, in bind_template
+    updates.update(processor(self.request))
+  File "E:\Djangoproject\blog_project\blog\views.py", line 48, in global_setting
+    print b
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\db\models\base.py", line 474, in __str__
+    return force_text(self).encode('utf-8')
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\utils\encoding.py", line 78, in force_text
+    s = six.text_type(s)
+TypeError: coercing to Unicode: need string or buffer, long found
+2016-10-09 16:51:26,035 [Thread-2:976] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Djangoproject\blog_project\blog\views.py", line 65, in index
+    return render(request, 'index.html', locals())
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\loader.py", line 97, in render_to_string
+    return template.render(context, request)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\backends\django.py", line 95, in render
+    return self.template.render(context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\base.py", line 204, in render
+    with context.bind_template(self):
+  File "E:\python\lib\contextlib.py", line 17, in __enter__
+    return self.gen.next()
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\context.py", line 260, in bind_template
+    updates.update(processor(self.request))
+  File "E:\Djangoproject\blog_project\blog\views.py", line 51, in global_setting
+    a.article.count()
+AttributeError: 'Category' object has no attribute 'article'
+2016-10-10 08:52:12,145 [Thread-3:1264] [django.request:182] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2016-10-10 08:52:12,164 [Thread-4:1000] [django.request:182] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2016-10-10 09:09:18,072 [Thread-4:2240] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Djangoproject\blog_project\blog\views.py", line 76, in index
+    return render(request, 'index.html', locals())
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\loader.py", line 97, in render_to_string
+    return template.render(context, request)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\backends\django.py", line 95, in render
+    return self.template.render(context)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\base.py", line 204, in render
+    with context.bind_template(self):
+  File "E:\python\lib\contextlib.py", line 17, in __enter__
+    return self.gen.next()
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\template\context.py", line 260, in bind_template
+    updates.update(processor(self.request))
+  File "E:\Djangoproject\blog_project\blog\views.py", line 39, in global_setting
+    k = Article.objects.annotate(comment_count=Count('commnet'))
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\db\models\manager.py", line 122, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\db\models\query.py", line 908, in annotate
+    clone.query.add_annotation(annotation, alias, is_summary=False)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\db\models\sql\query.py", line 987, in add_annotation
+    summarize=is_summary)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\db\models\aggregates.py", line 19, in resolve_expression
+    c = super(Aggregate, self).resolve_expression(query, allow_joins, reuse, summarize)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\db\models\expressions.py", line 509, in resolve_expression
+    c.source_expressions[pos] = arg.resolve_expression(query, allow_joins, reuse, summarize, for_save)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\db\models\expressions.py", line 466, in resolve_expression
+    return query.resolve_ref(self.name, allow_joins, reuse, summarize)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\db\models\sql\query.py", line 1464, in resolve_ref
+    self.get_initial_alias(), reuse)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\db\models\sql\query.py", line 1405, in setup_joins
+    names, opts, allow_many, fail_on_missing=True)
+  File "E:\python\lib\site-packages\django-1.9.9-py2.7.egg\django\db\models\sql\query.py", line 1330, in names_to_path
+    "Choices are: %s" % (name, ", ".join(available)))
+FieldError: Cannot resolve keyword 'commnet' into field. Choices are: category, category_id, click_count, comment, content, date_publish, desc, id, is_recommend, tag, title, user, user_id
+2017-01-19 09:51:32,822 [Thread-25:1628] [django.request:182] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2017-01-19 09:51:32,872 [Thread-26:5328] [django.request:182] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2017-01-19 09:51:51,081 [Thread-55:5792] [django.request:182] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2017-01-19 09:51:51,125 [Thread-56:4544] [django.request:182] [base:get_response] [WARNING]- Not Found: /favicon.ico

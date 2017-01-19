@@ -1,0 +1,22 @@
+2016-09-29 16:09:01,976 [Thread-2:3260] [blog.views:23] [views:index] [ERROR]- 'ascii' codec can't encode characters in position 5-9: ordinal not in range(128)
+2016-09-29 16:09:06,757 [Thread-24:2960] [blog.views:23] [views:index] [ERROR]- 'ascii' codec can't encode characters in position 5-9: ordinal not in range(128)
+2016-09-29 16:10:03,901 [Thread-2:5380] [blog.views:23] [views:index] [ERROR]- 'ascii' codec can't encode characters in position 5-9: ordinal not in range(128)
+2016-09-29 16:10:07,637 [Thread-24:5976] [blog.views:23] [views:index] [ERROR]- 'ascii' codec can't encode characters in position 5-9: ordinal not in range(128)
+2016-09-29 16:10:18,095 [Thread-47:6036] [blog.views:23] [views:index] [ERROR]- 'ascii' codec can't encode characters in position 5-9: ordinal not in range(128)
+2016-09-29 16:15:37,687 [Thread-3:5612] [blog.views:23] [views:index] [ERROR]- 'ascii' codec can't encode characters in position 5-9: ordinal not in range(128)
+2016-09-29 16:18:56,421 [Thread-2:1136] [blog.views:23] [views:index] [ERROR]- 'ascii' codec can't encode characters in position 5-9: ordinal not in range(128)
+2016-09-29 16:18:59,315 [Thread-24:5280] [blog.views:23] [views:index] [ERROR]- 'ascii' codec can't encode characters in position 5-9: ordinal not in range(128)
+2016-09-29 16:19:28,868 [Thread-46:6120] [blog.views:23] [views:index] [ERROR]- 'ascii' codec can't encode characters in position 5-9: ordinal not in range(128)
+2016-09-29 16:19:31,529 [Thread-68:3568] [blog.views:23] [views:index] [ERROR]- 'ascii' codec can't encode characters in position 5-9: ordinal not in range(128)
+2016-09-29 16:22:28,733 [Thread-2:3140] [blog.views:23] [views:index] [ERROR]- 'ascii' codec can't encode characters in position 5-9: ordinal not in range(128)
+2016-09-29 16:22:32,269 [Thread-3:620] [blog.views:23] [views:index] [ERROR]- 'ascii' codec can't encode characters in position 5-9: ordinal not in range(128)
+2016-09-29 16:24:56,158 [Thread-2:4220] [blog.views:24] [views:index] [ERROR]- 'ascii' codec can't encode characters in position 5-9: ordinal not in range(128)
+2016-09-29 16:29:35,257 [Thread-2:3140] [blog.views:24] [views:index] [ERROR]- 'ascii' codec can't encode characters in position 5-9: ordinal not in range(128)
+2016-09-29 16:29:38,423 [Thread-24:5228] [blog.views:24] [views:index] [ERROR]- 'ascii' codec can't encode characters in position 5-9: ordinal not in range(128)
+2016-09-29 16:31:54,111 [Thread-2:4040] [blog.views:24] [views:index] [ERROR]- 'ascii' codec can't encode characters in position 5-8: ordinal not in range(128)
+2016-09-29 16:58:30,051 [Thread-2:3884] [blog.views:25] [views:index] [ERROR]- 'ascii' codec can't encode characters in position 5-8: ordinal not in range(128)
+2016-09-29 17:05:20,963 [Thread-2:5228] [blog.views:25] [views:index] [ERROR]- 'ascii' codec can't encode characters in position 5-8: ordinal not in range(128)
+2016-09-29 17:31:30,691 [Thread-2:5248] [blog.views:36] [views:index] [ERROR]- 'ascii' codec can't encode characters in position 5-8: ordinal not in range(128)
+2016-09-30 14:07:44,802 [Thread-3:5844] [blog.views:196] [views:category] [ERROR]- global name 'getPage' is not defined
+2016-09-30 14:07:50,845 [Thread-5:3228] [blog.views:196] [views:category] [ERROR]- global name 'getPage' is not defined
+2016-09-30 14:07:54,404 [Thread-7:5564] [blog.views:196] [views:category] [ERROR]- global name 'getPage' is not defined
